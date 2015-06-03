@@ -12,15 +12,24 @@ Plugin 'kien/ctrlp.vim'
 
 call vundle#end()            " required
 
-" Settings
+" =========================== Settings =========================== 
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
 syntax on
 set noswapfile
+
+"No sounds
+set visualbell
+
 set softtabstop=2
 set tabstop=2 shiftwidth=2 expandtab
 set expandtab " use spaces, not tabs (optional)
+
+" Detect file type for indentation below
+:filetype indent on
+" Use 2 space indentation on Ruby and YAML files
+:autocmd FileType ruby,eruby,yaml,javascript,css,scss,html set ai sw=2 sts=2 et
 
 
 " ================ Leader and other mappings =======================
