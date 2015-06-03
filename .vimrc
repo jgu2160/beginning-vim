@@ -22,6 +22,7 @@ set noswapfile
 "No sounds
 set visualbell
 
+set shortmess+=I
 set softtabstop=2
 set tabstop=2 shiftwidth=2 expandtab
 set expandtab " use spaces, not tabs (optional)
