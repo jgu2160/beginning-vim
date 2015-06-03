@@ -16,6 +16,7 @@ call vundle#end()            " required
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+syntax on
 set noswapfile
 set softtabstop=2
 set tabstop=2 shiftwidth=2 expandtab
