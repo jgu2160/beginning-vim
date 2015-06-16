@@ -7,6 +7,8 @@ A short course and vimrc on beginning vim
    
 2. Set up Vundle:
    `$ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+
+3. cd into beginning-vim
    
 3. Move the .vimrc file to the home directory:
    `$ mv .vimrc ~`
