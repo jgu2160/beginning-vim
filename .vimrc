@@ -7,6 +7,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-endwise'
 Plugin 'Raimondi/delimitMate'
 Plugin 'scrooloose/nerdtree'
+Plugin 'fullybaked/toggle-numbers.vim'
 Plugin 'skalnik/vim-vroom'
 Plugin 'kien/ctrlp.vim'
 
@@ -21,6 +22,9 @@ set noswapfile
 
 "No sounds
 set visualbell
+
+" line numbers
+set number 
 
 set shortmess+=I
 set softtabstop=2
